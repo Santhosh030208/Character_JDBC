@@ -5,7 +5,7 @@ import java.sql.Statement;
 
 public class GetChar {
 
-	public static void gfood () throws Exception{
+	public static void gchar () throws Exception{
 		String url = "jdbc:mysql://127.0.0.1:3306/characters";
 		String username = "root";
 		String password = "1234";
@@ -24,7 +24,7 @@ public class GetChar {
 	}
 
 	public static void main(String[] args) throws Exception {
-		gfood();
+		gchar();
 
 }
 }
